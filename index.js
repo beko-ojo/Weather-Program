@@ -4,7 +4,7 @@
     const region = document.getElementById('city-input').value;
     document.getElementById('city-name').innerHTML = region; 
   
-    const apiUrl = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${region}&aqi=yes`;
+    const apiUrl = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${region}&aqi=yes`;
   
     fetch(apiUrl)
       .then(response => {
