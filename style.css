@@ -1,0 +1,39 @@
+body {
+    background-color: #87CEEB; /* Light blue background color */
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.weather-app {
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.user-input input {
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.user-input button {
+    padding: 5px 10px;
+    background-color: #376392; /* Blue button background color */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.weather-info h2 {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.weather-info p {
+    font-size: 18px;
+}
+
+.weather-info img {
+    width: 50px;
+}
